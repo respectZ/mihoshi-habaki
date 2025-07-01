@@ -1,0 +1,4061 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterProfile",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'AppCharacterProfileRow'",
+        "ObjectPath": "/Script/AppMain"
+      }
+    },
+    "Rows": {
+      "ID_LNPC000": {
+        "CharacterId": "ID_LNPC000",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 1,
+        "BirthdayDay": 2,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC000",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC000",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC000",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC000_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC000_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC000_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC000_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::ScaryThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC000_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Treasures",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC000_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC000.MI_UI_event_join_cloud_LNPC000",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC000.MI_UI_event_join_cloud_shadow_LNPC000",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC001": {
+        "CharacterId": "ID_LNPC001",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 0,
+        "BirthdayDay": 10,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC001",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC001",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC001",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC001_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC001_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC001_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::DifficultThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC001_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC001_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Treasures",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC001_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC001.MI_UI_event_join_cloud_LNPC001",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC001.MI_UI_event_join_cloud_shadow_LNPC001",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC002": {
+        "CharacterId": "ID_LNPC002",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 0,
+        "BirthdayDay": 3,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC002",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC002",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC002",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC002_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::DifficultThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC002_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC002_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC002_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC002_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::ScaryThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC002_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC002.MI_UI_event_join_cloud_LNPC002",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC002.MI_UI_event_join_cloud_shadow_LNPC002",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC003": {
+        "CharacterId": "ID_LNPC003",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 1,
+        "BirthdayDay": 17,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC003",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC003",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC003",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC003_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::MomentsOfHappiness",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC003_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HateThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC003_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Strength",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC003_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC003_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Treasures",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC003_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC003.MI_UI_event_join_cloud_LNPC003",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC003.MI_UI_event_join_cloud_shadow_LNPC003",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC004": {
+        "CharacterId": "ID_LNPC004",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 2,
+        "BirthdayDay": 19,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC004",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC004",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC004_0",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC004_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC004_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::MomentsOfHappiness",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC004_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC004_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC004_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC004_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC004.MI_UI_event_join_cloud_LNPC004",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC004.MI_UI_event_join_cloud_shadow_LNPC004",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC005": {
+        "CharacterId": "ID_LNPC005",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 2,
+        "BirthdayDay": 11,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC005",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC005",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC005",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC005_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC005_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC005_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::FavoriteThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC005_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC005_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC005_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC005.MI_UI_event_join_cloud_LNPC005",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC005.MI_UI_event_join_cloud_shadow_LNPC005",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC006": {
+        "CharacterId": "ID_LNPC006",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 3,
+        "BirthdayDay": 7,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC006",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC006",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC006",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::ScaryThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC006_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC006_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC006_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::ScaryThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC006_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC006_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC006_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC006.MI_UI_event_join_cloud_LNPC006",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC006.MI_UI_event_join_cloud_shadow_LNPC006",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC007": {
+        "CharacterId": "ID_LNPC007",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 3,
+        "BirthdayDay": 14,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC007",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC007",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC007",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC007_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC007_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HowISpendMyFreeTime",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC007_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HateThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC007_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HowISpendMyFreeTime",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC007_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Personality",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC007_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC007.MI_UI_event_join_cloud_LNPC007",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC007.MI_UI_event_join_cloud_shadow_LNPC007",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC008": {
+        "CharacterId": "ID_LNPC008",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 0,
+        "BirthdayDay": 26,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC008",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC008",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC008",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::FavoriteThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC008_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Treasures",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC008_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC008_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC008_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC008_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC008_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC008.MI_UI_event_join_cloud_LNPC008",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC008.MI_UI_event_join_cloud_shadow_LNPC008",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC009": {
+        "CharacterId": "ID_LNPC009",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 0,
+        "BirthdayDay": 29,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC009",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC009",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC009",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC009_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::FavoriteThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC009_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC009_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC009_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC009_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Treasures",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC009_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC009.MI_UI_event_join_cloud_LNPC009",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC009.MI_UI_event_join_cloud_shadow_LNPC009",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC010": {
+        "CharacterId": "ID_LNPC010",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 1,
+        "BirthdayDay": 0,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC010",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC010",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC010",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC010_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::ScaryThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC010_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::FavoriteThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC010_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC010_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::DifficultThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC010_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Weaknesses",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC010_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC010.MI_UI_event_join_cloud_LNPC010",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC010.MI_UI_event_join_cloud_shadow_LNPC010",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC011": {
+        "CharacterId": "ID_LNPC011",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 1,
+        "BirthdayDay": 13,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC011",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC011",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC011",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC011_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC011_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC011_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Habit",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC011_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC011_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Treasures",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC011_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC011.MI_UI_event_join_cloud_LNPC011",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC011.MI_UI_event_join_cloud_shadow_LNPC011",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC013": {
+        "CharacterId": "ID_LNPC013",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 3,
+        "BirthdayDay": 16,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC013",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC012",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC013_0",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC013_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HowISpendMyFreeTime",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC013_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC013_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HateThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC013_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HowISpendMyFreeTime",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC013_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC013_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC013.MI_UI_event_join_cloud_LNPC013",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC013.MI_UI_event_join_cloud_shadow_LNPC013",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC014": {
+        "CharacterId": "ID_LNPC014",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 3,
+        "BirthdayDay": 12,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC014",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC013",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC014",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC014_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC014_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC014_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC014_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC014_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::FavoriteThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC014_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC014.MI_UI_event_join_cloud_LNPC014",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC014.MI_UI_event_join_cloud_shadow_LNPC014",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC015": {
+        "CharacterId": "ID_LNPC015",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::DLC1",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 2,
+        "BirthdayDay": 11,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC015",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC014",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC015",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC015_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC015_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HateThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC015_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::FavoriteThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC015_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::DifficultThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC015_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC015_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC015.MI_UI_event_join_cloud_LNPC015",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC015.MI_UI_event_join_cloud_shadow_LNPC015",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC016": {
+        "CharacterId": "ID_LNPC016",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::DLC1",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 3,
+        "BirthdayDay": 9,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC016",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC015",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC016",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC016_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HowISpendMyFreeTime",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC016_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC016_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC016_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::MomentsOfHappiness",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC016_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Treasures",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC016_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC016.MI_UI_event_join_cloud_LNPC016",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC016.MI_UI_event_join_cloud_shadow_LNPC016",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC017": {
+        "CharacterId": "ID_WNPC017",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 3,
+        "BirthdayDay": 1,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_WNPC017",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_WNPC017",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC017",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Personality",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC017_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Motto",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC017_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Treasures",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC017_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC017_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC017_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::BirthPlace",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC017_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC018": {
+        "CharacterId": "ID_WNPC018",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 2,
+        "BirthdayDay": 21,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_WNPC018",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_WNPC018",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC018",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC018_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC018_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC018_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::MyBoom",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC018_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Motto",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC018_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::MomentsOfHappiness",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC018_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC019": {
+        "CharacterId": "ID_WNPC019",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 2,
+        "BirthdayDay": 2,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_WNPC019",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_WNPC019",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC019",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Dream",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC019_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::MyBoom",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC019_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC019_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC019_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC019_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::PreciousMemories",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC019_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC020": {
+        "CharacterId": "ID_WNPC020",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 0,
+        "BirthdayDay": 11,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_WNPC020",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_WNPC020",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC020",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::BirthPlace",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC020_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Motto",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC020_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Habit",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC020_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC020_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC020_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Family",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC020_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC021": {
+        "CharacterId": "ID_WNPC021",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 2,
+        "BirthdayDay": 8,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_WNPC021",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_WNPC021",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC021",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::BirthPlace",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC021_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Treasures",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC021_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::DifficultPeople",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC021_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC021_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::WorriedThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC021_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC021_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC022": {
+        "CharacterId": "ID_WNPC022",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 1,
+        "BirthdayDay": 9,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_WNPC022",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_WNPC022",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC022",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC022_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Saying",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC022_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Family",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC022_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::ScaryThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC022_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC022_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Motto",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC022_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC023": {
+        "CharacterId": "ID_WNPC023",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 2,
+        "BirthdayDay": 7,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_WNPC023",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_WNPC023",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC023",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC023_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Rival",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC023_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::ScaryThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC023_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Treasures",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC023_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::PreciousMemories",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC023_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC023_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC024": {
+        "CharacterId": "ID_WNPC024",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 1,
+        "BirthdayDay": 7,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_WNPC024",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_WNPC024",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC024",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::FavoriteThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC024_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC024_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Habit",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC024_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC024_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HowISpendMyFreeTime",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC024_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::BirthPlace",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC024_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC025": {
+        "CharacterId": "ID_WNPC025",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 2,
+        "BirthdayDay": 3,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_WNPC025",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_WNPC025",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC025",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Weaknesses",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC025_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Habit",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC025_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC025_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Dream",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC025_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC025_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC025_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC026": {
+        "CharacterId": "ID_WNPC026",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 1,
+        "BirthdayDay": 6,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_WNPC026",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_WNPC026",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC026",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::PreciousMemories",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC026_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC026_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::BirthPlace",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC026_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Dream",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC026_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Motto",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC026_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC026_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC027": {
+        "CharacterId": "ID_WNPC027",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": true,
+        "BirthdayMonth": 0,
+        "BirthdayDay": 0,
+        "BirthdayCalendarId": "None",
+        "BirthDayKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC027",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Personality",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC027_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC027_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HowISpendMyFreeTime",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC027_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::MomentsOfHappiness",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC027_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::ScaryThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC027_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Dream",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC027_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC028": {
+        "CharacterId": "ID_WNPC028",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": true,
+        "BirthdayMonth": 0,
+        "BirthdayDay": 0,
+        "BirthdayCalendarId": "None",
+        "BirthDayKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC028",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Personality",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC028_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC028_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Habit",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC028_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::FavoriteThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC028_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::DifficultThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC028_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Dream",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC028_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC029": {
+        "CharacterId": "ID_WNPC029",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": true,
+        "BirthdayMonth": 0,
+        "BirthdayDay": 0,
+        "BirthdayCalendarId": "None",
+        "BirthDayKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC029",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Personality",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC029_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC029_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::MomentsOfHappiness",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC029_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::FavoriteThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC029_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC029_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Dream",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC029_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC030": {
+        "CharacterId": "ID_WNPC030",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": true,
+        "BirthdayMonth": 0,
+        "BirthdayDay": 0,
+        "BirthdayCalendarId": "None",
+        "BirthDayKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC030",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Personality",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC030_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Strength",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC030_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC030_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::FavoriteThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC030_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::MomentsOfHappiness",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC030_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Dream",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC030_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC031": {
+        "CharacterId": "ID_WNPC031",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": true,
+        "BirthdayMonth": 0,
+        "BirthdayDay": 0,
+        "BirthdayCalendarId": "None",
+        "BirthDayKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC031",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Personality",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC031_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC031_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HowISpendMyFreeTime",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC031_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::FavoriteThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC031_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::DifficultPeople",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC031_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Dream",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC031_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_WNPC032": {
+        "CharacterId": "ID_WNPC032",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": -1,
+        "PartnerType": "EAppPartnerType::None",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": true,
+        "BirthdayMonth": 0,
+        "BirthdayDay": 0,
+        "BirthdayCalendarId": "None",
+        "BirthDayKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_WNPC032",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Personality",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC032_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC032_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::DifficultPeople",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC032_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::FavoriteThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC032_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Treasures",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC032_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Dream",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_WNPC032_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC004_ProfileUpdate": {
+        "CharacterId": "ID_LNPC004",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": 2503000,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 2,
+        "BirthdayDay": 19,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC004",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC004",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC004_1",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC004_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC004_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::MomentsOfHappiness",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC004_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Worries",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC004_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC004_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HiddenSecrets",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC004_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC004.MI_UI_event_join_cloud_LNPC004",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC004.MI_UI_event_join_cloud_shadow_LNPC004",
+          "SubPathString": ""
+        }
+      },
+      "ID_LNPC013_ProfileUpdate": {
+        "CharacterId": "ID_LNPC013",
+        "bUpgradeFlag": 0,
+        "ValidateProgress": 2305000,
+        "PartnerType": "EAppPartnerType::Default",
+        "NameStringTableKeyData": {
+          "Key": "",
+          "StringTablePath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "None"
+        },
+        "bUseSavedBirthday": false,
+        "BirthdayMonth": 3,
+        "BirthdayDay": 16,
+        "BirthdayCalendarId": "ID_CALENDAR_BIRTHDAY_LNPC013",
+        "BirthDayKeyData": {
+          "Key": "TXT_CPB_LNPC012",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "MainSentenceKeyData": {
+          "Key": "TXT_CP_LNPC013_1",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile",
+            "SubPathString": ""
+          },
+          "DefaultStringTableName": "None",
+          "StringTableId": "/Game/Senbei/StringTable/Profile/ST_CharacterProfile.ST_CharacterProfile"
+        },
+        "ProfileElemArray": [
+          {
+            "ElemType": "EAppProfileElemType::Hobbies",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC013_E2",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HowISpendMyFreeTime",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC013_E5",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Special",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC013_E1",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HateThings",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC013_E0",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::HowISpendMyFreeTime",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC013_E4",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          },
+          {
+            "ElemType": "EAppProfileElemType::Commitment",
+            "StringTableKeyData": {
+              "Key": "TXT_PD_LNPC013_E3",
+              "StringTablePath": {
+                "AssetPathName": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail",
+                "SubPathString": ""
+              },
+              "DefaultStringTableName": "None",
+              "StringTableId": "/Game/Senbei/StringTable/Profile/ST_ProfileDetail.ST_ProfileDetail"
+            }
+          }
+        ],
+        "CloudImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_LNPC013.MI_UI_event_join_cloud_LNPC013",
+          "SubPathString": ""
+        },
+        "CloudShadowImageMaterial": {
+          "AssetPathName": "/Game/Senbei/UI/Materials/MaterialInstances/event_join/MI_UI_event_join_cloud_shadow_LNPC013.MI_UI_event_join_cloud_shadow_LNPC013",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

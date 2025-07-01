@@ -1,0 +1,1476 @@
+[
+  {
+    "Type": "AppCommunicationNpcDataAsset",
+    "Name": "DA_CommunicationNpc_WNPC027",
+    "Class": "UScriptClass'AppCommunicationNpcDataAsset'",
+    "Properties": {
+      "NpcIdKey": {
+        "Key": "ID_WNPC027",
+        "DataTablePath": {
+          "AssetPathName": "/Game/Senbei/DataTable/Character/DT_Character.DT_Character",
+          "SubPathString": ""
+        }
+      },
+      "InitFriendshipLevel": 1,
+      "CommandPreference": [
+        {
+          "Key": "Comm_Cmd_01_01",
+          "Value": "EAppCommandReactionType::Like"
+        },
+        {
+          "Key": "Comm_Cmd_01_02",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_01_03",
+          "Value": "EAppCommandReactionType::Hate"
+        },
+        {
+          "Key": "Comm_Cmd_01_04",
+          "Value": "EAppCommandReactionType::Like"
+        },
+        {
+          "Key": "Comm_Cmd_01_05",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_01_06",
+          "Value": "EAppCommandReactionType::Like"
+        },
+        {
+          "Key": "Comm_Cmd_01_07",
+          "Value": "EAppCommandReactionType::Dislike"
+        },
+        {
+          "Key": "Comm_Cmd_01_08",
+          "Value": "EAppCommandReactionType::Like"
+        },
+        {
+          "Key": "Comm_Cmd_01_09",
+          "Value": "EAppCommandReactionType::Like"
+        },
+        {
+          "Key": "Comm_Cmd_01_10",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_01_11",
+          "Value": "EAppCommandReactionType::Dislike"
+        },
+        {
+          "Key": "Comm_Cmd_01_12",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_01_13",
+          "Value": "EAppCommandReactionType::Like"
+        },
+        {
+          "Key": "Comm_Cmd_01_14",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_01_15",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_01_16",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_01_17",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_01_18",
+          "Value": "EAppCommandReactionType::Love"
+        },
+        {
+          "Key": "Comm_Cmd_01_19",
+          "Value": "EAppCommandReactionType::Love"
+        },
+        {
+          "Key": "Comm_Cmd_01_20",
+          "Value": "EAppCommandReactionType::Like"
+        },
+        {
+          "Key": "Comm_Cmd_01_21",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_01_22",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_01_23",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_01_24",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_01_25",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_02_01",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_02_02",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_03_01",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_03_02",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_03_03",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_03_04",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_03_05",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_03_06",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_03_07",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_03_08",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_03_11",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_03_12",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_04_01",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_04_02",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_05_01",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_05_02",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_05_03",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_06_01",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_07_01",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_08_01",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_09_01",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_10_01",
+          "Value": "EAppCommandReactionType::Neutral"
+        },
+        {
+          "Key": "Comm_Cmd_11_01",
+          "Value": "EAppCommandReactionType::Neutral"
+        }
+      ],
+      "CommunicationCommandDemoIdList": [
+        {
+          "Key": "Comm_Cmd_01_01",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_02",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_03",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_04",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_05",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_06",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_07",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_08",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_09",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_10",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_11",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_12",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_13",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_14",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_15",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_16",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_17",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_18",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_19",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_20",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_21",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_22",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_23",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_24",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_01_25",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_TALK_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_02_01",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_GIFT_NORMAL_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_02_02",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_BIRTHDAY_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_03_01",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_WNPC027_GOOUT_GLASS",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_03_02",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_WNPC027_GOOUT_RIVER",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_03_03",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_WNPC027_GOOUT_WATERFALL",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_03_04",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_WNPC027_GOOUT_FOREST",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_03_05",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_WNPC027_GOOUT_SEA",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_03_06",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_WNPC027_GOOUT_CAVE",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_03_07",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_WNPC027_GOOUT_SNOWFIELD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_03_08",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_WNPC027_GOOUT_MOUNTAIN",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_03_11",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_WORSHIP_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_03_12",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_WNPC027_GOOUT_SHOPPING",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_04_01",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_WNPC027_EATING_IROHA",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_04_02",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_WNPC027_EATING_YACHIYO",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_05_02",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_WNPC027_REST_FOREST",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_06_01",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_COMMON_UMBRELLA_CHILD",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_07_01",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "ID_DMO_COM_WNPC027_PRANK",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_08_01",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_09_01",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_10_01",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        },
+        {
+          "Key": "Comm_Cmd_11_01",
+          "Value": {
+            "CutSceneDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            },
+            "ScriptDemoIdKeyData": {
+              "Key": "None",
+              "DataTablePath": {
+                "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+                "SubPathString": ""
+              },
+              "DefaultDataTableName": "Demo"
+            }
+          }
+        }
+      ],
+      "CommunicationCommandFriendshipDemoIdMap": [
+        {
+          "Key": "EAppCommunicationCommandType::None",
+          "Value": {
+            "GreatSuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270010",
+              "ID_DMO_COMRESULT0270020"
+            ],
+            "SuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270030",
+              "ID_DMO_COMRESULT0270040"
+            ],
+            "FailureDemoIdArray": [
+              "ID_DMO_COMRESULT0270070",
+              "ID_DMO_COMRESULT0270080"
+            ],
+            "BlunderDemoIdArray": [
+              "ID_DMO_COMRESULT0270050",
+              "ID_DMO_COMRESULT0270060"
+            ]
+          }
+        },
+        {
+          "Key": "EAppCommunicationCommandType::Chat",
+          "Value": {
+            "GreatSuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270210"
+            ],
+            "SuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270220"
+            ],
+            "FailureDemoIdArray": [],
+            "BlunderDemoIdArray": []
+          }
+        },
+        {
+          "Key": "EAppCommunicationCommandType::Present",
+          "Value": {
+            "GreatSuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270230"
+            ],
+            "SuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270240"
+            ],
+            "FailureDemoIdArray": [],
+            "BlunderDemoIdArray": []
+          }
+        },
+        {
+          "Key": "EAppCommunicationCommandType::GoOut",
+          "Value": {
+            "GreatSuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270250"
+            ],
+            "SuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270260"
+            ],
+            "FailureDemoIdArray": [],
+            "BlunderDemoIdArray": []
+          }
+        },
+        {
+          "Key": "EAppCommunicationCommandType::Eat",
+          "Value": {
+            "GreatSuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270270"
+            ],
+            "SuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270280"
+            ],
+            "FailureDemoIdArray": [],
+            "BlunderDemoIdArray": []
+          }
+        },
+        {
+          "Key": "EAppCommunicationCommandType::GetRest",
+          "Value": {
+            "GreatSuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270290"
+            ],
+            "SuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270300"
+            ],
+            "FailureDemoIdArray": [],
+            "BlunderDemoIdArray": []
+          }
+        },
+        {
+          "Key": "EAppCommunicationCommandType::ShareUmbrella",
+          "Value": {
+            "GreatSuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270310"
+            ],
+            "SuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270320"
+            ],
+            "FailureDemoIdArray": [],
+            "BlunderDemoIdArray": []
+          }
+        },
+        {
+          "Key": "EAppCommunicationCommandType::Treat",
+          "Value": {
+            "GreatSuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270330"
+            ],
+            "SuccessDemoIdArray": [
+              "ID_DMO_COMRESULT0270340"
+            ],
+            "FailureDemoIdArray": [],
+            "BlunderDemoIdArray": []
+          }
+        }
+      ],
+      "FumbleDemoId": "ID_DMO_COMRESULT0270350",
+      "CommonFriendGaugeDemoIdArray": [
+        "ID_DMO_STM0034300"
+      ],
+      "CommonFriendGaugeDemoIdArrayForLover": [
+        "None"
+      ],
+      "FriendLvUpDemoIdArray": [
+        "ID_DMO_RANKUP0270100",
+        "ID_DMO_RANKUP0270200",
+        "ID_DMO_RANKUP0270300",
+        "ID_DMO_RANKUP0270400",
+        "ID_DMO_RANKUP0270100",
+        "ID_DMO_RANKUP0270200",
+        "ID_DMO_RANKUP0270300",
+        "ID_DMO_RANKUP0270400",
+        "ID_DMO_RANKUP0270100",
+        "ID_DMO_RANKUP0270200"
+      ],
+      "PresentReactionDemoInfoList": [
+        {
+          "ReactionType": "EAppCommunicationPickyType::Love",
+          "DemoIdArray": [
+            "ID_DMO_COMRESULT0270090",
+            "ID_DMO_COMRESULT0270100",
+            "ID_DMO_COMRESULT0270230"
+          ],
+          "HandmadeDemoIdArray": [
+            "ID_DMO_COMRESULT0270170"
+          ],
+          "BirthdayDemoIdArray": [
+            "ID_DMO_COMRESULT0270200"
+          ]
+        },
+        {
+          "ReactionType": "EAppCommunicationPickyType::Like",
+          "DemoIdArray": [
+            "ID_DMO_COMRESULT0270110",
+            "ID_DMO_COMRESULT0270120",
+            "ID_DMO_COMRESULT0270240"
+          ],
+          "HandmadeDemoIdArray": [
+            "ID_DMO_COMRESULT0270180"
+          ],
+          "BirthdayDemoIdArray": [
+            "ID_DMO_COMRESULT0270200"
+          ]
+        },
+        {
+          "ReactionType": "EAppCommunicationPickyType::Neutral",
+          "DemoIdArray": [],
+          "HandmadeDemoIdArray": [
+            "ID_DMO_COMRESULT0270190"
+          ],
+          "BirthdayDemoIdArray": [
+            "ID_DMO_COMRESULT0270200"
+          ]
+        },
+        {
+          "ReactionType": "EAppCommunicationPickyType::Dislike",
+          "DemoIdArray": [
+            "ID_DMO_COMRESULT0270150",
+            "ID_DMO_COMRESULT0270160"
+          ],
+          "HandmadeDemoIdArray": [],
+          "BirthdayDemoIdArray": []
+        },
+        {
+          "ReactionType": "EAppCommunicationPickyType::Hate",
+          "DemoIdArray": [
+            "ID_DMO_COMRESULT0270130",
+            "ID_DMO_COMRESULT0270140"
+          ],
+          "HandmadeDemoIdArray": [],
+          "BirthdayDemoIdArray": []
+        }
+      ],
+      "ReturnPresentDemoId": "ID_DMO_Return0040",
+      "ReturnPresentMap": [
+        {
+          "Key": "ID_ITM_FSH001",
+          "Value": 0
+        },
+        {
+          "Key": "ID_ITM_FSH006",
+          "Value": 0
+        },
+        {
+          "Key": "ID_ITM_FSH011",
+          "Value": 0
+        },
+        {
+          "Key": "ID_ITM_FSH020",
+          "Value": 0
+        },
+        {
+          "Key": "ID_ITM_FSH021",
+          "Value": 0
+        },
+        {
+          "Key": "ID_ITM_FSH025",
+          "Value": 0
+        },
+        {
+          "Key": "ID_ITM_FSH026",
+          "Value": 0
+        },
+        {
+          "Key": "ID_ITM_FSH029",
+          "Value": 0
+        },
+        {
+          "Key": "ID_ITM_FSH032",
+          "Value": 0
+        },
+        {
+          "Key": "ID_ITM_FSH015",
+          "Value": 0
+        }
+      ],
+      "AfterBatheShareItemMap": [
+        {
+          "Key": "ID_ITM_LVP001",
+          "Value": 1
+        }
+      ],
+      "LunchBoxItemMap": [
+        {
+          "Key": "ID_ITM_LVP001",
+          "Value": 1
+        }
+      ],
+      "QuestDemoInfo": {
+        "MainTalkTextKeyData": {
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Communication/ST_PseudoDemo.ST_PseudoDemo",
+            "SubPathString": ""
+          },
+          "StringTableId": "/Game/Senbei/StringTable/Communication/ST_PseudoDemo.ST_PseudoDemo"
+        },
+        "BackSelectionTextKeyData": {
+          "Key": "TXT_COM_SLCT_BACK",
+          "StringTablePath": {
+            "AssetPathName": "/Game/Senbei/StringTable/Communication/ST_PseudoDemo.ST_PseudoDemo",
+            "SubPathString": ""
+          },
+          "StringTableId": "/Game/Senbei/StringTable/Communication/ST_PseudoDemo.ST_PseudoDemo"
+        },
+        "HasAcceptDemoId": {
+          "DataTablePath": {
+            "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+            "SubPathString": ""
+          }
+        },
+        "AcceptDemoId": {
+          "DataTablePath": {
+            "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+            "SubPathString": ""
+          }
+        },
+        "AbandonDemoId": {
+          "DataTablePath": {
+            "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+            "SubPathString": ""
+          }
+        },
+        "ClearDemoId": {
+          "DataTablePath": {
+            "AssetPathName": "/Game/Senbei/DataTable/Demo/DT_Demo.DT_Demo",
+            "SubPathString": ""
+          }
+        }
+      },
+      "CraftDemoIdArray": [
+        "ID_DMO_LIFE_COOK_WNPC027_PC",
+        "ID_DMO_LIFE_COOK_WNPC027_NPC"
+      ],
+      "LifeCycleEpisodeDataTableKey": {
+        "DataTablePath": {
+          "AssetPathName": "/Game/Senbei/DataTable/Quest/DT_QuestEpisode.DT_QuestEpisode",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

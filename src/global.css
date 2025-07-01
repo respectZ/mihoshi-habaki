@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@plugin 'flowbite/plugin';
+
+@source "../node_modules/flowbite-qwik";
+
+@theme {
+  --animate-from-left: slideFromLeft 0.2s 1;
+  --animate-from-right: slideFromRight 0.2s 1;
+
+  --min-width-screen-lg: 1024px;
+
+  --container-8xl: 90rem;
+
+  @keyframes slideFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}

@@ -1,0 +1,3124 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NpcPickyItem",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'AppNpcPickyItemRow'",
+        "ObjectPath": "/Script/AppMain"
+      }
+    },
+    "Rows": {
+      "DEFAULT_LOVE": {
+        "TargetCharacterID": "None",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_CRP_VEG002"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "DEFAULT_LIKE": {
+        "TargetCharacterID": "None",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_CRP_VEG001"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "DEFAULT_NEUTRAL": {
+        "TargetCharacterID": "None",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "DEFAULT_DISLIKE": {
+        "TargetCharacterID": "None",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_CRP_VEG013"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "DEFAULT_HATE": {
+        "TargetCharacterID": "None",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC000_LOVE": {
+        "TargetCharacterID": "ID_LNPC000",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH132",
+          "ID_ITM_FOD_MRE031"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC000_LIKE": {
+        "TargetCharacterID": "ID_LNPC000",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_MRE002",
+          "ID_ITM_FOD_MRE006",
+          "ID_ITM_FOD_MRE005",
+          "ID_ITM_FOD_MRE023",
+          "ID_ITM_FOD_MRE025",
+          "ID_ITM_FOD_MRE026",
+          "ID_ITM_FOD_MRE027",
+          "ID_ITM_FOD_MRE028",
+          "ID_ITM_FOD_DSH107"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC000_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC000",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC000_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC000",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MST153",
+          "ID_ITM_MAT_MST154",
+          "ID_ITM_MAT_MIN108",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC000_HATE": {
+        "TargetCharacterID": "ID_LNPC000",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MST151",
+          "ID_ITM_MAT_MST152"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC001_LOVE": {
+        "TargetCharacterID": "ID_LNPC001",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH514",
+          "ID_ITM_FOD_MRE030"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC001_LIKE": {
+        "TargetCharacterID": "ID_LNPC001",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_MAT_FLW801",
+          "ID_ITM_MAT_FLW802",
+          "ID_ITM_MAT_FLW803",
+          "ID_ITM_MAT_FLW804",
+          "ID_ITM_MAT_FLW807",
+          "ID_ITM_CRP_FLW009",
+          "ID_ITM_FOD_DSH513",
+          "ID_ITM_FOD_DSH510"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC001_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC001",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC001_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC001",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC001_HATE": {
+        "TargetCharacterID": "ID_LNPC001",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC002_LOVE": {
+        "TargetCharacterID": "ID_LNPC002",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH124",
+          "ID_ITM_FOD_DSH050"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC002_LIKE": {
+        "TargetCharacterID": "ID_LNPC002",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_MRE001",
+          "ID_ITM_FOD_MRE002",
+          "ID_ITM_FOD_MRE003",
+          "ID_ITM_FOD_MRE004",
+          "ID_ITM_FOD_MRE005",
+          "ID_ITM_FOD_MRE006",
+          "ID_ITM_FOD_MRE007",
+          "ID_ITM_FOD_SWT005",
+          "ID_ITM_FOD_SWT010",
+          "ID_ITM_FOD_SWT018",
+          "ID_ITM_CRP_FRT004"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC002_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC002",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC002_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC002",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT222",
+          "ID_ITM_FOD_SWT224",
+          "ID_ITM_FOD_SWT225",
+          "ID_ITM_FOD_SWT223",
+          "ID_ITM_FOD_SWT227",
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC002_HATE": {
+        "TargetCharacterID": "ID_LNPC002",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT008",
+          "ID_ITM_FOD_SWT103",
+          "ID_ITM_FOD_SWT115",
+          "ID_ITM_FOD_SWT216",
+          "ID_ITM_FOD_SWT220",
+          "ID_ITM_CRP_VEG033"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC003_LOVE": {
+        "TargetCharacterID": "ID_LNPC003",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN051",
+          "ID_ITM_MAT_MIN052",
+          "ID_ITM_MAT_MIN053",
+          "ID_ITM_MAT_MIN054",
+          "ID_ITM_MAT_MIN055",
+          "ID_ITM_MAT_MIN056",
+          "ID_ITM_MAT_MIN057"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC003_LIKE": {
+        "TargetCharacterID": "ID_LNPC003",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_MAT_FLW804",
+          "ID_ITM_MAT_FLW807",
+          "ID_ITM_FOD_DSH304",
+          "ID_ITM_FOD_MRE005",
+          "ID_ITM_FOD_DSH104",
+          "ID_ITM_FOD_DSH439",
+          "ID_ITM_FOD_MRE021",
+          "ID_ITM_FOD_MRE025"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC003_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC003",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC003_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC003",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH026",
+          "ID_ITM_FOD_DSH033",
+          "ID_ITM_FOD_DSH126",
+          "ID_ITM_FOD_DSH032",
+          "ID_ITM_FOD_DSH125",
+          "ID_ITM_FOD_DSH409",
+          "ID_ITM_FOD_DSH419"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC003_HATE": {
+        "TargetCharacterID": "ID_LNPC003",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_FSH037",
+          "ID_ITM_FSH035",
+          "ID_ITM_FSH036",
+          "ID_ITM_FSH038"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC004_LOVE": {
+        "TargetCharacterID": "ID_LNPC004",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH512",
+          "ID_ITM_FOD_MRE029",
+          "ID_ITM_FOD_SWT050",
+          "ID_ITM_FOD_DSH413"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC004_LIKE": {
+        "TargetCharacterID": "ID_LNPC004",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT222",
+          "ID_ITM_FOD_SWT223",
+          "ID_ITM_FOD_SWT225",
+          "ID_ITM_FOD_SWT224",
+          "ID_ITM_FOD_SWT227",
+          "ID_ITM_FOD_DSH506",
+          "ID_ITM_FOD_DSH507",
+          "ID_ITM_FOD_DSH508",
+          "ID_ITM_FOD_DSH051",
+          "ID_ITM_FOD_DSH509"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC004_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC004",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC004_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC004",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH014",
+          "ID_ITM_FOD_DSH524",
+          "ID_ITM_FOD_SWT214",
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC004_HATE": {
+        "TargetCharacterID": "ID_LNPC004",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SPC015",
+          "ID_ITM_FOD_SPC022",
+          "ID_ITM_FOD_DSH015",
+          "ID_ITM_FOD_DSH031",
+          "ID_ITM_FSH011"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC005_LOVE": {
+        "TargetCharacterID": "ID_LNPC005",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT034",
+          "ID_ITM_FOD_SWT031",
+          "ID_ITM_FOD_SWT039",
+          "ID_ITM_FOD_SWT042",
+          "ID_ITM_FOD_SWT103"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC005_LIKE": {
+        "TargetCharacterID": "ID_LNPC005",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT006",
+          "ID_ITM_FOD_SWT007",
+          "ID_ITM_FOD_SWT008",
+          "ID_ITM_FOD_SWT009",
+          "ID_ITM_FOD_SWT010",
+          "ID_ITM_FOD_SWT011",
+          "ID_ITM_FOD_SWT012",
+          "ID_ITM_FOD_MRE105",
+          "ID_ITM_FOD_MRE108",
+          "ID_ITM_FOD_MRE109",
+          "ID_ITM_FOD_MRE115"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC005_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC005",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC005_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC005",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH432",
+          "ID_ITM_FOD_DSH111",
+          "ID_ITM_FOD_DSH412",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC005_HATE": {
+        "TargetCharacterID": "ID_LNPC005",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_FSH017"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC006_LOVE": {
+        "TargetCharacterID": "ID_LNPC006",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH411",
+          "ID_ITM_FOD_DSH426",
+          "ID_ITM_FOD_DSH438",
+          "ID_ITM_FOD_MRE002",
+          "ID_ITM_FOD_DSH440"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC006_LIKE": {
+        "TargetCharacterID": "ID_LNPC006",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_LVP032",
+          "ID_ITM_LVP031",
+          "ID_ITM_LVP033",
+          "ID_ITM_FOD_SPC025",
+          "ID_ITM_FOD_SPC024",
+          "ID_ITM_MAT_MST154",
+          "ID_ITM_MAT_MST153",
+          "ID_ITM_FSH015",
+          "ID_ITM_FSH016"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC006_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC006",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC006_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC006",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH026",
+          "ID_ITM_FOD_DSH027",
+          "ID_ITM_FOD_DSH028",
+          "ID_ITM_FOD_DSH518",
+          "ID_ITM_FOD_SPC007"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC006_HATE": {
+        "TargetCharacterID": "ID_LNPC006",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MST004",
+          "ID_ITM_MAT_MST005",
+          "ID_ITM_MAT_MST006",
+          "ID_ITM_MAT_MST007"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC007_LOVE": {
+        "TargetCharacterID": "ID_LNPC007",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH308",
+          "ID_ITM_FOD_DSH132",
+          "ID_ITM_FOD_SWT226",
+          "ID_ITM_FOD_DSH511",
+          "ID_ITM_FOD_DSH106"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC007_LIKE": {
+        "TargetCharacterID": "ID_LNPC007",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH302",
+          "ID_ITM_FOD_DSH303",
+          "ID_ITM_FOD_DSH304",
+          "ID_ITM_FOD_DSH305",
+          "ID_ITM_FOD_DSH306",
+          "ID_ITM_FOD_DSH307",
+          "ID_ITM_FOD_DSH103",
+          "ID_ITM_FOD_DSH104",
+          "ID_ITM_FOD_DSH105",
+          "ID_ITM_FOD_DSH107"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC007_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC007",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC007_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC007",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_MRE105",
+          "ID_ITM_FOD_MRE106",
+          "ID_ITM_FOD_MRE107",
+          "ID_ITM_FOD_MRE108",
+          "ID_ITM_FOD_MRE109",
+          "ID_ITM_FOD_SWT103",
+          "ID_ITM_FOD_MRE115"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC007_HATE": {
+        "TargetCharacterID": "ID_LNPC007",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MST201",
+          "ID_ITM_MAT_MST202",
+          "ID_ITM_MAT_MST203",
+          "ID_ITM_MAT_MST204"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC008_LOVE": {
+        "TargetCharacterID": "ID_LNPC008",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT222",
+          "ID_ITM_FOD_SWT223",
+          "ID_ITM_FOD_SWT225",
+          "ID_ITM_FOD_SWT224",
+          "ID_ITM_FOD_SWT227"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC008_LIKE": {
+        "TargetCharacterID": "ID_LNPC008",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_MAT_FLW804",
+          "ID_ITM_FOD_DSH018",
+          "ID_ITM_CRP_VEG003",
+          "ID_ITM_CRP_VEG004",
+          "ID_ITM_FOD_DSH003",
+          "ID_ITM_FOD_DSH009",
+          "ID_ITM_FOD_DSH409",
+          "ID_ITM_FOD_DSH510",
+          "ID_ITM_FOD_DSH426",
+          "ID_ITM_FOD_DSH427",
+          "ID_ITM_FOD_DSH428"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC008_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC008",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC008_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC008",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH038",
+          "ID_ITM_FOD_DSH120",
+          "ID_ITM_FOD_DSH503",
+          "ID_ITM_FOD_DSH517",
+          "ID_ITM_FOD_SWT117",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC008_HATE": {
+        "TargetCharacterID": "ID_LNPC008",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SPC020"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC009_LOVE": {
+        "TargetCharacterID": "ID_LNPC009",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_MRE115",
+          "ID_ITM_FOD_SWT127",
+          "ID_ITM_FOD_SWT036",
+          "ID_ITM_FOD_SWT029"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC009_LIKE": {
+        "TargetCharacterID": "ID_LNPC009",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT107",
+          "ID_ITM_FOD_SWT114",
+          "ID_ITM_FOD_SWT121",
+          "ID_ITM_FOD_SWT219",
+          "ID_ITM_FOD_SWT013",
+          "ID_ITM_FOD_SWT014",
+          "ID_ITM_FOD_SPC001",
+          "ID_ITM_FOD_SPC013",
+          "ID_ITM_FOD_SPC014",
+          "ID_ITM_FOD_SPC015"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC009_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC009",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC009_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC009",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC009_HATE": {
+        "TargetCharacterID": "ID_LNPC009",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC010_LOVE": {
+        "TargetCharacterID": "ID_LNPC010",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_MAT_FLW803",
+          "ID_ITM_FOD_SWT040",
+          "ID_ITM_FOD_SWT020",
+          "ID_ITM_FOD_SWT021"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC010_LIKE": {
+        "TargetCharacterID": "ID_LNPC010",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH307",
+          "ID_ITM_FOD_DSH409",
+          "ID_ITM_FOD_DSH512",
+          "ID_ITM_FOD_SWT024",
+          "ID_ITM_FOD_SWT026",
+          "ID_ITM_FOD_SWT027",
+          "ID_ITM_FOD_MRE003",
+          "ID_ITM_FOD_MRE004",
+          "ID_ITM_FOD_MRE033"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC010_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC010",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC010_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC010",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC010_HATE": {
+        "TargetCharacterID": "ID_LNPC010",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_FOD_MRE112",
+          "ID_ITM_CRP_WGR603",
+          "ID_ITM_CRP_WGR614"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC011_LOVE": {
+        "TargetCharacterID": "ID_LNPC011",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH129",
+          "ID_ITM_FOD_SWT222"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC011_LIKE": {
+        "TargetCharacterID": "ID_LNPC011",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH117",
+          "ID_ITM_FOD_DSH515",
+          "ID_ITM_FOD_DSH516",
+          "ID_ITM_FOD_DSH517",
+          "ID_ITM_FOD_DSH502",
+          "ID_ITM_FOD_DSH503",
+          "ID_ITM_FOD_DSH526",
+          "ID_ITM_FOD_SWT223",
+          "ID_ITM_FOD_SWT225",
+          "ID_ITM_FOD_SWT224",
+          "ID_ITM_FOD_SWT227"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC011_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC011",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC011_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC011",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH031",
+          "ID_ITM_FOD_DSH032",
+          "ID_ITM_FOD_DSH033",
+          "ID_ITM_FOD_DSH034",
+          "ID_ITM_FOD_DSH035",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC011_HATE": {
+        "TargetCharacterID": "ID_LNPC011",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC013_LOVE": {
+        "TargetCharacterID": "ID_LNPC013",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 7
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT215",
+          "ID_ITM_FOD_SWT218",
+          "ID_ITM_FOD_DSH303",
+          "ID_ITM_FOD_SPC023",
+          "ID_ITM_FOD_DSH526"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC013_LIKE": {
+        "TargetCharacterID": "ID_LNPC013",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 7
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT208",
+          "ID_ITM_FOD_SWT209",
+          "ID_ITM_FOD_SWT210",
+          "ID_ITM_FOD_SWT211",
+          "ID_ITM_FOD_SWT212",
+          "ID_ITM_FOD_SWT216",
+          "ID_ITM_FOD_SWT217",
+          "ID_ITM_FOD_SWT201",
+          "ID_ITM_FOD_DSH515",
+          "ID_ITM_FOD_DSH516",
+          "ID_ITM_FOD_DSH517"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC013_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC013",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 10
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC013_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC013",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 7
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH309",
+          "ID_ITM_FOD_DSH130",
+          "ID_ITM_CRP_WGR619",
+          "ID_ITM_CRP_WGR620",
+          "ID_ITM_CRP_WGR622",
+          "ID_ITM_CRP_WGR624",
+          "ID_ITM_CRP_WGR609",
+          "ID_ITM_CRP_WGR614",
+          "ID_ITM_CRP_WGR603",
+          "ID_ITM_CRP_WGR610"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC013_HATE": {
+        "TargetCharacterID": "ID_LNPC013",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 7
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_CRP_VEG007",
+          "ID_ITM_CRP_VEG008",
+          "ID_ITM_CRP_VEG029",
+          "ID_ITM_CRP_VEG030",
+          "ID_ITM_CRP_WGR621",
+          "ID_ITM_CRP_WGR623",
+          "ID_ITM_CRP_WGR627",
+          "ID_ITM_CRP_WGR628",
+          "ID_ITM_CRP_WGR630",
+          "ID_ITM_CRP_WGR615",
+          "ID_ITM_CRP_WGR616"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC013_LOVE_AFTER_DATE3": {
+        "TargetCharacterID": "ID_LNPC013",
+        "LoveChapterRange": {
+          "Min": 8,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT215",
+          "ID_ITM_FOD_SWT218",
+          "ID_ITM_FOD_DSH303",
+          "ID_ITM_FOD_SPC023",
+          "ID_ITM_FOD_DSH526",
+          "ID_ITM_CRP_VEG007",
+          "ID_ITM_CRP_VEG008",
+          "ID_ITM_CRP_VEG029",
+          "ID_ITM_CRP_VEG030"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC013_LIKE_AFTER_DATE3": {
+        "TargetCharacterID": "ID_LNPC013",
+        "LoveChapterRange": {
+          "Min": 8,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT208",
+          "ID_ITM_FOD_SWT209",
+          "ID_ITM_FOD_SWT210",
+          "ID_ITM_FOD_SWT211",
+          "ID_ITM_FOD_SWT212",
+          "ID_ITM_FOD_SWT216",
+          "ID_ITM_FOD_SWT217",
+          "ID_ITM_FOD_SWT201",
+          "ID_ITM_FOD_DSH515",
+          "ID_ITM_FOD_DSH516",
+          "ID_ITM_FOD_DSH517"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC013_DISLIKE_AFTER_DATE3": {
+        "TargetCharacterID": "ID_LNPC013",
+        "LoveChapterRange": {
+          "Min": 8,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH309",
+          "ID_ITM_FOD_DSH130",
+          "ID_ITM_CRP_WGR619",
+          "ID_ITM_CRP_WGR620",
+          "ID_ITM_CRP_WGR622",
+          "ID_ITM_CRP_WGR624",
+          "ID_ITM_CRP_WGR609",
+          "ID_ITM_CRP_WGR614",
+          "ID_ITM_CRP_WGR603",
+          "ID_ITM_CRP_WGR610"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC013_HATE_AFTER_DATE3": {
+        "TargetCharacterID": "ID_LNPC013",
+        "LoveChapterRange": {
+          "Min": 8,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_CRP_WGR621",
+          "ID_ITM_CRP_WGR623",
+          "ID_ITM_CRP_WGR627",
+          "ID_ITM_CRP_WGR628",
+          "ID_ITM_CRP_WGR630",
+          "ID_ITM_CRP_WGR615",
+          "ID_ITM_CRP_WGR616"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC014_LOVE": {
+        "TargetCharacterID": "ID_LNPC014",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MST003",
+          "ID_ITM_FOD_SWT128",
+          "ID_ITM_FOD_DSH130",
+          "ID_ITM_FOD_SWT032",
+          "ID_ITM_FOD_DSH527"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC014_LIKE": {
+        "TargetCharacterID": "ID_LNPC014",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MST001",
+          "ID_ITM_MAT_MST002",
+          "ID_ITM_FOD_DSH005",
+          "ID_ITM_FOD_DSH509",
+          "ID_ITM_FOD_DSH031",
+          "ID_ITM_FOD_DSH032",
+          "ID_ITM_FOD_DSH033",
+          "ID_ITM_FOD_DSH034",
+          "ID_ITM_FOD_DSH035",
+          "ID_ITM_FOD_DSH519"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC014_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC014",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC014_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC014",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC014_HATE": {
+        "TargetCharacterID": "ID_LNPC014",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT224",
+          "ID_ITM_FOD_SWT222",
+          "ID_ITM_FOD_SWT225",
+          "ID_ITM_FOD_SWT223",
+          "ID_ITM_FOD_SWT227"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC015_LOVE": {
+        "TargetCharacterID": "ID_LNPC015",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN011",
+          "ID_ITM_MAT_MIN012",
+          "ID_ITM_MAT_MIN013",
+          "ID_ITM_MAT_MIN014",
+          "ID_ITM_MAT_MIN109"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC015_LIKE": {
+        "TargetCharacterID": "ID_LNPC015",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SPC010",
+          "ID_ITM_FOD_SPC009",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_MAT_MIN023",
+          "ID_ITM_FOD_MRE032",
+          "ID_ITM_FOD_SWT226"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC015_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC015",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC015_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC015",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MST453",
+          "ID_ITM_MAT_MST454"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC015_HATE": {
+        "TargetCharacterID": "ID_LNPC015",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MST451",
+          "ID_ITM_MAT_MST452"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC016_LOVE": {
+        "TargetCharacterID": "ID_LNPC016",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH051",
+          "ID_ITM_FOD_SWT102",
+          "ID_ITM_FOD_SWT023",
+          "ID_ITM_FOD_SWT119",
+          "ID_ITM_FOD_DSH438"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC016_LIKE": {
+        "TargetCharacterID": "ID_LNPC016",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH411",
+          "ID_ITM_FOD_DSH426",
+          "ID_ITM_FOD_MRE002",
+          "ID_ITM_FOD_DSH440",
+          "ID_ITM_LVP021",
+          "ID_ITM_FOD_DSH506",
+          "ID_ITM_FOD_DSH512",
+          "ID_ITM_FSH016"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC016_NEUTRAL": {
+        "TargetCharacterID": "ID_LNPC016",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC016_DISLIKE": {
+        "TargetCharacterID": "ID_LNPC016",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_LNPC016_HATE": {
+        "TargetCharacterID": "ID_LNPC016",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MST201",
+          "ID_ITM_MAT_MST202",
+          "ID_ITM_MAT_MST203",
+          "ID_ITM_MAT_MST204",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_MAT_MIN022",
+          "ID_ITM_MAT_MIN023"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC017_LOVE": {
+        "TargetCharacterID": "ID_WNPC017",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH045",
+          "ID_ITM_FOD_SWT127",
+          "ID_ITM_FOD_DSH046",
+          "ID_ITM_FOD_MRE115",
+          "ID_ITM_FOD_SWT029",
+          "ID_ITM_FOD_DSH429"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC017_LIKE": {
+        "TargetCharacterID": "ID_WNPC017",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH001",
+          "ID_ITM_FOD_DSH002",
+          "ID_ITM_FOD_DSH003",
+          "ID_ITM_FOD_DSH018",
+          "ID_ITM_FOD_DSH419",
+          "ID_ITM_FOD_DSH420",
+          "ID_ITM_FOD_DSH421",
+          "ID_ITM_FOD_DSH422",
+          "ID_ITM_FOD_DSH423",
+          "ID_ITM_FOD_DSH424",
+          "ID_ITM_FOD_DSH425"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC017_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC017",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC017_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC017",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH026",
+          "ID_ITM_FOD_DSH027",
+          "ID_ITM_FOD_DSH028",
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_MAT_MIN021"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC017_HATE": {
+        "TargetCharacterID": "ID_WNPC017",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC018_LOVE": {
+        "TargetCharacterID": "ID_WNPC018",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT125",
+          "ID_ITM_FOD_SWT029",
+          "ID_ITM_FOD_SWT013",
+          "ID_ITM_FOD_SWT014",
+          "ID_ITM_FOD_SWT015",
+          "ID_ITM_FOD_MRE026",
+          "ID_ITM_FOD_MRE027",
+          "ID_ITM_FOD_MRE028"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC018_LIKE": {
+        "TargetCharacterID": "ID_WNPC018",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_MAT_WOD001",
+          "ID_ITM_MAT_MIN002",
+          "ID_ITM_MAT_WOD003",
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_FOD_MRE021",
+          "ID_ITM_FOD_MRE022",
+          "ID_ITM_FOD_MRE023",
+          "ID_ITM_FOD_MRE024",
+          "ID_ITM_FOD_MRE025"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC018_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC018",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC018_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC018",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_CRP_VEG007",
+          "ID_ITM_CRP_VEG008",
+          "ID_ITM_CRP_VEG023",
+          "ID_ITM_CRP_VEG024",
+          "ID_ITM_CRP_VEG025",
+          "ID_ITM_CRP_VEG026",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC018_HATE": {
+        "TargetCharacterID": "ID_WNPC018",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_CRP_VEG021",
+          "ID_ITM_CRP_VEG022",
+          "ID_ITM_CRP_VEG029",
+          "ID_ITM_CRP_VEG030"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC019_LOVE": {
+        "TargetCharacterID": "ID_WNPC019",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH046",
+          "ID_ITM_FOD_SWT125",
+          "ID_ITM_FOD_SWT029",
+          "ID_ITM_FOD_SWT216",
+          "ID_ITM_FOD_SWT217",
+          "ID_ITM_FOD_SWT218",
+          "ID_ITM_FOD_SWT219",
+          "ID_ITM_LVP001",
+          "ID_ITM_FOD_SWT013"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC019_LIKE": {
+        "TargetCharacterID": "ID_WNPC019",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT201",
+          "ID_ITM_LVP002",
+          "ID_ITM_LVP003",
+          "ID_ITM_FOD_SWT233",
+          "ID_ITM_FOD_SWT014",
+          "ID_ITM_FOD_SWT015",
+          "ID_ITM_FOD_SWT028",
+          "ID_ITM_FOD_SWT124",
+          "ID_ITM_FOD_DSH045"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC019_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC019",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC019_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC019",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH015",
+          "ID_ITM_FOD_DSH016",
+          "ID_ITM_FOD_DSH014",
+          "ID_ITM_FOD_DSH017",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC019_HATE": {
+        "TargetCharacterID": "ID_WNPC019",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_CRP_VEG007",
+          "ID_ITM_CRP_VEG008",
+          "ID_ITM_FOD_SWT213",
+          "ID_ITM_FOD_SWT231",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC020_LOVE": {
+        "TargetCharacterID": "ID_WNPC020",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN051",
+          "ID_ITM_MAT_MIN052",
+          "ID_ITM_MAT_MIN053",
+          "ID_ITM_MAT_MIN054",
+          "ID_ITM_MAT_MIN055",
+          "ID_ITM_MAT_MIN056",
+          "ID_ITM_MAT_MIN057"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC020_LIKE": {
+        "TargetCharacterID": "ID_WNPC020",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_ARM_ACE005",
+          "ID_ITM_ARM_ACE004",
+          "ID_ITM_ARM_ACE016",
+          "ID_ITM_ARM_ACE017",
+          "ID_ITM_ARM_ACE018",
+          "ID_ITM_ARM_ACE019",
+          "ID_ITM_ARM_ACE020",
+          "ID_ITM_ARM_ACE021",
+          "ID_ITM_ARM_ACE029"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC020_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC020",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC020_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC020",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MST201",
+          "ID_ITM_MAT_MST202",
+          "ID_ITM_MAT_MST203",
+          "ID_ITM_MAT_MST204",
+          "ID_ITM_MAT_MST251",
+          "ID_ITM_MAT_MST252",
+          "ID_ITM_MAT_MST253",
+          "ID_ITM_MAT_MST254",
+          "ID_ITM_MAT_MST255",
+          "ID_ITM_MAT_MST256",
+          "ID_ITM_MAT_MST257"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC020_HATE": {
+        "TargetCharacterID": "ID_WNPC020",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MST301",
+          "ID_ITM_MAT_MST302",
+          "ID_ITM_MAT_MST303",
+          "ID_ITM_MAT_MST304",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC021_LOVE": {
+        "TargetCharacterID": "ID_WNPC021",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN110",
+          "ID_ITM_FOD_DSH019",
+          "ID_ITM_FOD_DSH045",
+          "ID_ITM_MAT_MST403",
+          "ID_ITM_MAT_MST404",
+          "ID_ITM_FOD_DSH049"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC021_LIKE": {
+        "TargetCharacterID": "ID_WNPC021",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MST401",
+          "ID_ITM_MAT_MST402",
+          "ID_ITM_MAT_MIN115",
+          "ID_ITM_MAT_MIN112",
+          "ID_ITM_MAT_MIN113",
+          "ID_ITM_MAT_MIN111",
+          "ID_ITM_FOD_DSH001",
+          "ID_ITM_FOD_DSH018"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC021_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC021",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC021_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC021",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022",
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC021_HATE": {
+        "TargetCharacterID": "ID_WNPC021",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC022_LOVE": {
+        "TargetCharacterID": "ID_WNPC022",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH113",
+          "ID_ITM_FOD_DSH114",
+          "ID_ITM_FOD_DSH119",
+          "ID_ITM_FOD_DSH514",
+          "ID_ITM_FOD_DSH129",
+          "ID_ITM_FOD_SWT127",
+          "ID_ITM_FOD_SWT129",
+          "ID_ITM_FOD_SWT050",
+          "ID_ITM_FOD_MRE112",
+          "ID_ITM_FOD_DSH131"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC022_LIKE": {
+        "TargetCharacterID": "ID_WNPC022",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH438",
+          "ID_ITM_FOD_SWT221",
+          "ID_ITM_FOD_SWT216",
+          "ID_ITM_FOD_SWT217",
+          "ID_ITM_FOD_SWT218",
+          "ID_ITM_FOD_SWT219",
+          "ID_ITM_FOD_SWT106",
+          "ID_ITM_FOD_SWT107"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC022_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC022",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC022_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC022",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC022_HATE": {
+        "TargetCharacterID": "ID_WNPC022",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN209"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC023_LOVE": {
+        "TargetCharacterID": "ID_WNPC023",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT034",
+          "ID_ITM_FOD_DSH133",
+          "ID_ITM_FOD_DSH309",
+          "ID_ITM_FOD_DSH130",
+          "ID_ITM_FOD_SWT029",
+          "ID_ITM_MAT_MST352",
+          "ID_ITM_MAT_MST353",
+          "ID_ITM_MAT_MST351",
+          "ID_ITM_MAT_MIN209"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC023_LIKE": {
+        "TargetCharacterID": "ID_WNPC023",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT031",
+          "ID_ITM_FOD_SWT006",
+          "ID_ITM_FOD_SWT007",
+          "ID_ITM_FOD_SWT008",
+          "ID_ITM_FOD_SWT009",
+          "ID_ITM_FOD_SWT010",
+          "ID_ITM_FOD_SWT011",
+          "ID_ITM_FOD_SWT012",
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_MAT_MIN023"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC023_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC023",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC023_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC023",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH303",
+          "ID_ITM_FOD_SPC023",
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC023_HATE": {
+        "TargetCharacterID": "ID_WNPC023",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_CRP_VEG019",
+          "ID_ITM_CRP_VEG020",
+          "ID_ITM_CRP_VEG027",
+          "ID_ITM_CRP_VEG028"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC024_LOVE": {
+        "TargetCharacterID": "ID_WNPC024",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SPC026",
+          "ID_ITM_FSH013",
+          "ID_ITM_FOD_DSH427",
+          "ID_ITM_FOD_SWT227",
+          "ID_ITM_FOD_SWT222",
+          "ID_ITM_FOD_SWT223",
+          "ID_ITM_FOD_SWT224",
+          "ID_ITM_FOD_SWT225"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC024_LIKE": {
+        "TargetCharacterID": "ID_WNPC024",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH422",
+          "ID_ITM_FOD_DSH423",
+          "ID_ITM_FOD_DSH424",
+          "ID_ITM_FOD_DSH425",
+          "ID_ITM_FOD_DSH426",
+          "ID_ITM_FOD_DSH428",
+          "ID_ITM_FOD_DSH429",
+          "ID_ITM_FOD_DSH420",
+          "ID_ITM_FOD_DSH421",
+          "ID_ITM_FOD_DSH029",
+          "ID_ITM_FOD_DSH030",
+          "ID_ITM_FOD_DSH031"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC024_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC024",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC024_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC024",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH520",
+          "ID_ITM_FOD_DSH522",
+          "ID_ITM_FOD_DSH523",
+          "ID_ITM_FOD_DSH024",
+          "ID_ITM_FOD_DSH025"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC024_HATE": {
+        "TargetCharacterID": "ID_WNPC024",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_MAT_MIN022",
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC025_LOVE": {
+        "TargetCharacterID": "ID_WNPC025",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN016",
+          "ID_ITM_MAT_MIN017",
+          "ID_ITM_MAT_MIN015",
+          "ID_ITM_MAT_MIN014",
+          "ID_ITM_MAT_MIN103",
+          "ID_ITM_MAT_MIN101"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC025_LIKE": {
+        "TargetCharacterID": "ID_WNPC025",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN011",
+          "ID_ITM_MAT_MIN012",
+          "ID_ITM_MAT_MIN013",
+          "ID_ITM_MAT_MIN102",
+          "ID_ITM_MAT_MIN104"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC025_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC025",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC025_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC025",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC025_HATE": {
+        "TargetCharacterID": "ID_WNPC025",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_ARM_ACE001"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC026_LOVE": {
+        "TargetCharacterID": "ID_WNPC026",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FSH023",
+          "ID_ITM_FSH022",
+          "ID_ITM_FSH016",
+          "ID_ITM_FSH027",
+          "ID_ITM_FSH028",
+          "ID_ITM_FSH010",
+          "ID_ITM_FSH012",
+          "ID_ITM_FSH024",
+          "ID_ITM_FSH032",
+          "ID_ITM_FSH021"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC026_LIKE": {
+        "TargetCharacterID": "ID_WNPC026",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FSH011",
+          "ID_ITM_FSH013",
+          "ID_ITM_FSH014",
+          "ID_ITM_FSH015",
+          "ID_ITM_FSH017",
+          "ID_ITM_FSH018",
+          "ID_ITM_FSH019",
+          "ID_ITM_FSH020",
+          "ID_ITM_FSH025",
+          "ID_ITM_FSH026",
+          "ID_ITM_FSH029",
+          "ID_ITM_FSH030",
+          "ID_ITM_FSH031",
+          "ID_ITM_FSH033",
+          "ID_ITM_FSH001",
+          "ID_ITM_FSH002",
+          "ID_ITM_FSH003",
+          "ID_ITM_FSH004",
+          "ID_ITM_FSH005",
+          "ID_ITM_FSH006",
+          "ID_ITM_FSH007",
+          "ID_ITM_FSH008",
+          "ID_ITM_FSH009"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC026_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC026",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC026_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC026",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC026_HATE": {
+        "TargetCharacterID": "ID_WNPC026",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_MAT_MIN022",
+          "ID_ITM_MAT_MIN023"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC027_LOVE": {
+        "TargetCharacterID": "ID_WNPC027",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT044",
+          "ID_ITM_FOD_SWT228"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC027_LIKE": {
+        "TargetCharacterID": "ID_WNPC027",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH502",
+          "ID_ITM_FOD_DSH117",
+          "ID_ITM_FOD_DSH515",
+          "ID_ITM_FOD_SWT115",
+          "ID_ITM_FOD_SWT116",
+          "ID_ITM_FOD_SWT022",
+          "ID_ITM_FOD_SWT218",
+          "ID_ITM_FOD_SWT119",
+          "ID_ITM_FOD_SWT123",
+          "ID_ITM_FOD_SWT112",
+          "ID_ITM_FOD_SWT114"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC027_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC027",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC027_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC027",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN022",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_DRG001",
+          "ID_ITM_DRG002",
+          "ID_ITM_DRG003",
+          "ID_ITM_DRG004"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC027_HATE": {
+        "TargetCharacterID": "ID_WNPC027",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_CRP_VEG015",
+          "ID_ITM_CRP_VEG016",
+          "ID_ITM_CRP_VEG023",
+          "ID_ITM_CRP_VEG024",
+          "ID_ITM_CRP_VEG029",
+          "ID_ITM_CRP_VEG030"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC028_LOVE": {
+        "TargetCharacterID": "ID_WNPC028",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT045",
+          "ID_ITM_FOD_SWT229",
+          "ID_ITM_MAT_MST352",
+          "ID_ITM_MAT_MST104",
+          "ID_ITM_MAT_MST203"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC028_LIKE": {
+        "TargetCharacterID": "ID_WNPC028",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH502",
+          "ID_ITM_FOD_DSH117",
+          "ID_ITM_FOD_DSH108",
+          "ID_ITM_FOD_DSH515",
+          "ID_ITM_FOD_SWT115",
+          "ID_ITM_FOD_SWT116",
+          "ID_ITM_FOD_SWT022",
+          "ID_ITM_FOD_SWT211",
+          "ID_ITM_MAT_MST351",
+          "ID_ITM_MAT_MST103",
+          "ID_ITM_MAT_MST202"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC028_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC028",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC028_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC028",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_DRG001",
+          "ID_ITM_DRG002",
+          "ID_ITM_DRG003",
+          "ID_ITM_DRG004",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC028_HATE": {
+        "TargetCharacterID": "ID_WNPC028",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_CRP_VEG023",
+          "ID_ITM_CRP_VEG024",
+          "ID_ITM_CRP_VEG029",
+          "ID_ITM_CRP_VEG030",
+          "ID_ITM_CRP_VEG021",
+          "ID_ITM_CRP_VEG022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC029_LOVE": {
+        "TargetCharacterID": "ID_WNPC029",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT046",
+          "ID_ITM_FOD_SWT230"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC029_LIKE": {
+        "TargetCharacterID": "ID_WNPC029",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH502",
+          "ID_ITM_FOD_DSH117",
+          "ID_ITM_FOD_DSH108",
+          "ID_ITM_FOD_DSH515",
+          "ID_ITM_FOD_SWT115",
+          "ID_ITM_FOD_SWT116",
+          "ID_ITM_FOD_SWT022",
+          "ID_ITM_FOD_SWT219",
+          "ID_ITM_MAT_WOD001",
+          "ID_ITM_MAT_WOD003",
+          "ID_ITM_MAT_MIN002"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC029_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC029",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC029_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC029",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_DRG001",
+          "ID_ITM_DRG002",
+          "ID_ITM_DRG003",
+          "ID_ITM_DRG004",
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022",
+          "ID_ITM_MAT_MIN021"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC029_HATE": {
+        "TargetCharacterID": "ID_WNPC029",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC030_LOVE": {
+        "TargetCharacterID": "ID_WNPC030",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT047",
+          "ID_ITM_FOD_SWT208"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC030_LIKE": {
+        "TargetCharacterID": "ID_WNPC030",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH502",
+          "ID_ITM_FOD_DSH117",
+          "ID_ITM_FOD_DSH108",
+          "ID_ITM_FOD_DSH515",
+          "ID_ITM_FOD_SWT115",
+          "ID_ITM_FOD_SWT116",
+          "ID_ITM_FOD_SWT022",
+          "ID_ITM_DRG001",
+          "ID_ITM_DRG002",
+          "ID_ITM_DRG003",
+          "ID_ITM_DRG004"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC030_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC030",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC030_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC030",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC030_HATE": {
+        "TargetCharacterID": "ID_WNPC030",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT231",
+          "ID_ITM_CRP_VEG029",
+          "ID_ITM_CRP_VEG030",
+          "ID_ITM_CRP_VEG021",
+          "ID_ITM_CRP_VEG022",
+          "ID_ITM_CRP_VEG019",
+          "ID_ITM_CRP_VEG020"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC031_LOVE": {
+        "TargetCharacterID": "ID_WNPC031",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT048",
+          "ID_ITM_FOD_SWT232",
+          "ID_ITM_FOD_SWT220",
+          "ID_ITM_FOD_SWT115"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC031_LIKE": {
+        "TargetCharacterID": "ID_WNPC031",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH502",
+          "ID_ITM_FOD_DSH117",
+          "ID_ITM_FOD_DSH108",
+          "ID_ITM_FOD_DSH515",
+          "ID_ITM_FOD_SWT116",
+          "ID_ITM_FOD_SWT022",
+          "ID_ITM_FOD_SWT203",
+          "ID_ITM_FOD_SWT207",
+          "ID_ITM_FOD_SWT205",
+          "ID_ITM_FOD_SWT206"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC031_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC031",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC031_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC031",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_DRG001",
+          "ID_ITM_DRG002",
+          "ID_ITM_DRG003",
+          "ID_ITM_DRG004",
+          "ID_ITM_MAT_MIN001",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN020",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC031_HATE": {
+        "TargetCharacterID": "ID_WNPC031",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_CRP_VEG025",
+          "ID_ITM_CRP_VEG026",
+          "ID_ITM_CRP_VEG007",
+          "ID_ITM_CRP_VEG008",
+          "ID_ITM_CRP_VEG009",
+          "ID_ITM_CRP_VEG010"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC032_LOVE": {
+        "TargetCharacterID": "ID_WNPC032",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Love",
+        "ItemIdArray": [
+          "ID_ITM_FOD_SWT049",
+          "ID_ITM_FOD_SWT233",
+          "ID_ITM_FOD_SWT116",
+          "ID_ITM_FOD_SWT113"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC032_LIKE": {
+        "TargetCharacterID": "ID_WNPC032",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Like",
+        "ItemIdArray": [
+          "ID_ITM_FOD_DSH502",
+          "ID_ITM_FOD_DSH117",
+          "ID_ITM_FOD_DSH108",
+          "ID_ITM_FOD_DSH515",
+          "ID_ITM_FOD_SWT115",
+          "ID_ITM_FOD_SWT022",
+          "ID_ITM_FOD_SWT201",
+          "ID_ITM_FOD_SWT112",
+          "ID_ITM_FOD_SWT114",
+          "ID_ITM_FOD_SWT104"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC032_NEUTRAL": {
+        "TargetCharacterID": "ID_WNPC032",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Neutral",
+        "ItemIdArray": [],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC032_DISLIKE": {
+        "TargetCharacterID": "ID_WNPC032",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Dislike",
+        "ItemIdArray": [
+          "ID_ITM_DRG001",
+          "ID_ITM_DRG002",
+          "ID_ITM_DRG003",
+          "ID_ITM_DRG004",
+          "ID_ITM_MAT_MIN018",
+          "ID_ITM_MAT_MIN019",
+          "ID_ITM_MAT_MIN021",
+          "ID_ITM_CRP_WGR002",
+          "ID_ITM_CRP_WGR001",
+          "ID_ITM_MAT_MIN022"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      },
+      "ID_WNPC032_HATE": {
+        "TargetCharacterID": "ID_WNPC032",
+        "LoveChapterRange": {
+          "Min": 0,
+          "Max": 999
+        },
+        "Purpose": "EAppCommunicationPickyPurpose::None",
+        "PickyType": "EAppCommunicationPickyType::Hate",
+        "ItemIdArray": [
+          "ID_ITM_CRP_VEG019",
+          "ID_ITM_CRP_VEG020",
+          "ID_ITM_CRP_VEG027",
+          "ID_ITM_CRP_VEG028",
+          "ID_ITM_CRP_VEG023",
+          "ID_ITM_CRP_VEG024",
+          "ID_ITM_MAT_MIN209",
+          "ID_ITM_MAT_MIN210"
+        ],
+        "QuestFlagID": "None",
+        "QuestFlagVal": -1
+      }
+    }
+  }
+]
