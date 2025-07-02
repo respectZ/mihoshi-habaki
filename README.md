@@ -1,6 +1,6 @@
 # Mihoshi Habaki
 
-Rune Factory: Guardians of Azuma Interactive Database.
+Rune Factory: Guardians of Azuma Guide.
 
 Built using Qwik.
 

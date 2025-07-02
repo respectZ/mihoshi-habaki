@@ -7,7 +7,7 @@ export default component$(() => {
     <>
       <div class="flex-1 flex flex-col items-center justify-center h-full w-full gap-4">
         <div>
-          <h1 class="text-4xl font-bold">Rune Factory: Guardians of Azuma Interactive Database</h1>
+          <h1 class="text-4xl font-bold">Rune Factory: Guardians of Azuma Guide</h1>
           <p class="text-lg text-gray-100 mt-4">Explore database</p>
           <div class="flex justify-baseline gap-4 mt-4">
             <Link href="/items">
@@ -44,7 +44,7 @@ export const head: DocumentHead = {
   meta: [
     {
       name: "description",
-      content: "Mihoshi Habaki - Rune Factory: Guardians of Azuma Interactive Database",
+      content: "Mihoshi Habaki - Rune Factory: Guardians of Azuma Guide",
     },
   ],
 };
