@@ -63,7 +63,13 @@ export default component$(() => {
         acc[residence].push(data);
         return acc;
       },
-      {} as Record<Residence, CharacterData[]>,
+      {
+        spring: [],
+        summer: [],
+        autumn: [],
+        winter: [],
+        unknown: [],
+      } as Record<Residence, CharacterData[]>,
     );
   });
   const entries = Object.entries(characters.value) as [Residence, CharacterData[]][];
