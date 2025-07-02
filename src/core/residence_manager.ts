@@ -14,6 +14,12 @@ class ResidenceManager {
       "ID_WNPC017", // Sakaki
       "ID_WNPC018", // Takumi
       "ID_WNPC019", // Suzu
+      "ID_WNPC027", // Sora
+      "ID_WNPC028", // Umi
+      "ID_WNPC029", // Riku
+      "ID_WNPC030", // Hana
+      "ID_WNPC031", // Tsuyu
+      "ID_WNPC032", // Sayo
     ],
     summer: [
       "ID_LNPC010", // Matsuri

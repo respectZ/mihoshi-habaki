@@ -1,4 +1,4 @@
-import { component$, Slot, useContext, useSignal, useStore, useVisibleTask$ } from "@builder.io/qwik";
+import { component$, Slot, useComputed$, useContext, useStore, useVisibleTask$ } from "@builder.io/qwik";
 import { DocumentHead } from "@builder.io/qwik-city";
 import { Image } from "@unpic/qwik";
 import { Breadcrumb, Link, Spinner } from "flowbite-qwik";
@@ -10,67 +10,63 @@ import { Residence, residenceManager } from "../../core/residence_manager";
 
 export default component$(() => {
   const lang = useContext(LangContext);
-  const dataTable = useSignal<DataTableSignal>({
-    loaded: false,
-    DT_Character: undefined,
-    DT_Profile: undefined,
-    DT_NpcPickyItem: useSignal(undefined),
-    DT_Item: useSignal(undefined),
-    DT_CommunicationCommand: useSignal(undefined),
-    DA_CommunicationNpc: useSignal(undefined),
-  });
-  const characters = useStore<Record<Residence, CharacterData[]>>({
-    spring: [],
-    summer: [],
-    autumn: [],
-    winter: [],
-    unknown: [],
-  });
+  const dataTable = useStore<DataTableSignal>(
+    {
+      loaded: false,
+      DT_Character: undefined,
+      DT_Profile: undefined,
+      DT_NpcPickyItem: undefined,
+      DT_Item: undefined,
+      DT_CommunicationCommand: undefined,
+      DA_CommunicationNpc: undefined,
+    },
+    { deep: false },
+  );
   useVisibleTask$(async ({ track }) => {
-    track(() => dataTable.value.loaded);
-    if (dataTable.value.loaded) {
+    track(() => dataTable.loaded);
+    if (dataTable.loaded) {
       return;
     }
-    if (!dataTable.value.DT_Character) {
-      dataTable.value.DT_Character = await getDataTable("character");
+    if (!dataTable.DT_Character) {
+      dataTable.DT_Character = await getDataTable("character");
     }
-    if (!dataTable.value.DT_Profile) {
-      dataTable.value.DT_Profile = await getDataTable("characterProfile");
+    if (!dataTable.DT_Profile) {
+      dataTable.DT_Profile = await getDataTable("characterProfile");
     }
-    dataTable.value.loaded = true;
+    dataTable.loaded = true;
   });
-  useVisibleTask$(({ track }) => {
-    track(() => [dataTable.value.loaded, lang.currentLang, lang.value]);
-    if (!dataTable.value.loaded || !lang.value) {
-      return;
+  const characters = useComputed$(() => {
+    if (!dataTable.loaded || !lang.value) {
+      return {};
     }
-    const DT_Character = dataTable.value.DT_Character;
-    const DT_Profile = dataTable.value.DT_Profile;
+    const DT_Character = dataTable.DT_Character;
+    const DT_Profile = dataTable.DT_Profile;
     if (!DT_Character || !DT_Profile) {
-      return;
+      return {};
     }
-    // Reset characters
-    for (const residence of Object.keys(characters) as Residence[]) {
-      characters[residence] = [];
-    }
-    for (const [id] of Object.entries(DT_Character.Rows)) {
-      const regex = /[WL]NPC(\d+)/g;
-      const matches = regex.exec(id);
-      if (!matches) {
-        continue;
-      }
-      const characterId = +matches[1];
-      // 12 = Sorano
-      // > 27 = Non-Interactable NPCs
-      if (characterId === 12 || characterId > 26) {
-        continue;
-      }
-      const residence = residenceManager.getVillagerResidence(id);
-      const data = characterManager.getData(id, dataTable.value, lang);
-      characters[residence].push(data);
-    }
+    const regex = /[WL]NPC(\d+)/;
+    return Object.keys(DT_Character.Rows).reduce(
+      (acc, id) => {
+        const matches = regex.exec(id);
+        if (!matches) {
+          return acc;
+        }
+        // 12 = Sorano
+        // > 27 = Non-Interactable NPCs
+        const characterId = +matches[1];
+        if (characterId === 12 || characterId > 32) {
+          return acc; // Skip Sorano and non-interactable NPCs
+        }
+        const residence = residenceManager.getVillagerResidence(id);
+        const data = characterManager.getData(id, dataTable, lang);
+        acc[residence] = acc[residence] || [];
+        acc[residence].push(data);
+        return acc;
+      },
+      {} as Record<Residence, CharacterData[]>,
+    );
   });
-  const entries = Object.entries(characters) as [Residence, CharacterData[]][];
+  const entries = Object.entries(characters.value) as [Residence, CharacterData[]][];
   return (
     <>
       <div class="mb-4">

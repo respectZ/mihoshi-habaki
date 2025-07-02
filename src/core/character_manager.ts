@@ -1,4 +1,3 @@
-import { Signal } from "@builder.io/qwik";
 import { LangContextType } from "~/context/lang";
 import { DA_CommunicationNpc } from "~/core/data_table/character_communication";
 import { DT_CommunicationCommand } from "~/core/data_table/communication/communication_command";
@@ -17,11 +16,11 @@ export type DataTableSignal = {
   DT_Profile: IDataTable<DT_CharacterProfile> | undefined;
   // Reactive, lazy-loaded tables
   // Preferences
-  DT_NpcPickyItem: Signal<IDataTable<DT_NpcPickyItem> | undefined>;
-  DT_Item: Signal<IDataTable<DT_Item> | undefined>;
+  DT_NpcPickyItem: IDataTable<DT_NpcPickyItem> | undefined;
+  DT_Item: IDataTable<DT_Item> | undefined;
   // Communication
-  DT_CommunicationCommand: Signal<IDataTable<DT_CommunicationCommand> | undefined>;
-  DA_CommunicationNpc: Signal<DA_CommunicationNpc | undefined>;
+  DT_CommunicationCommand: IDataTable<DT_CommunicationCommand> | undefined;
+  DA_CommunicationNpc: DA_CommunicationNpc | undefined;
 };
 export type CharacterData = {
   id: string;

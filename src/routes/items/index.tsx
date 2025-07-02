@@ -1,4 +1,4 @@
-import { component$, useContext, useSignal, useVisibleTask$ } from "@builder.io/qwik";
+import { component$, useComputed$, useContext, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import { DocumentHead, useLocation } from "@builder.io/qwik-city";
 import { Button, Link, Pagination, Select, Spinner } from "flowbite-qwik";
 import { Card } from "~/components/card";
@@ -20,9 +20,6 @@ export default component$(() => {
   const filterCategory = useSignal(params.get("category") || "");
   const filterBrand = useSignal(params.get("brand") || "");
   const table = useSignal<IDataTable<DT_Item> | undefined>();
-  const items = useSignal<Array<ItemMetadata>>([]);
-  const slicedItems = useSignal<ItemMetadata[]>([]);
-  const maxPage = useSignal(5);
   const currentPage = useSignal(1);
   const itemPerPage = 50;
   useVisibleTask$(async () => {
@@ -31,41 +28,54 @@ export default component$(() => {
       table.value = itemTable;
     }
   });
-  useVisibleTask$(async ({ track }) => {
+  const items = useComputed$(() => {
     const DT_Item = table.value;
-    track(() => [DT_Item, lang.value, lang.currentLang]);
     if (!DT_Item || !lang.value) {
-      return;
+      return [];
     }
-    items.value = Object.keys(DT_Item.Rows).map((id) => itemManager.getItemMetadata(id, DT_Item, lang));
+    return Object.keys(DT_Item.Rows).map((id) => itemManager.getItemMetadata(id, DT_Item, lang));
   });
-  useVisibleTask$(async ({ track }) => {
-    track(() => [
-      items.value,
-      search.debounced.value,
-      currentPage.value,
-      filterGenre.value,
-      filterCategory.value,
-      filterBrand.value,
-    ]);
+  const filteredItems = useComputed$(() => {
     if (items.value.length === 0) {
-      return;
+      return [];
     }
-    const filteredItems = items.value.filter(
+    const filtered = items.value.filter(
       (item) =>
         item.name.toLowerCase().includes(search.debounced.value.toLowerCase()) &&
         (filterGenre.value === "" || item.genre?.id === filterGenre.value) &&
         (filterCategory.value === "" || item.category?.id === filterCategory.value) &&
         (filterBrand.value === "" || item.brand?.id === filterBrand.value),
     );
-    if (filteredItems.length === 0) {
+    if (filtered.length > 0 && Math.ceil(filtered.length / itemPerPage) < currentPage.value) {
       currentPage.value = 1;
     }
-    if (currentPage.value < 1) {
-      currentPage.value = 1;
+    return filtered;
+  });
+  const maxPage = useComputed$(() => Math.ceil(filteredItems.value.length / itemPerPage));
+  const slicedItems = useComputed$(() => {
+    return filteredItems.value.slice((currentPage.value - 1) * itemPerPage, currentPage.value * itemPerPage);
+  });
+  const options = useComputed$(() => {
+    const base = [{ value: "", name: "-" }];
+    const genre = [...base];
+    const category = [...base];
+    const brand = [...base];
+    for (const item of items.value) {
+      if (item.genre && !genre.some((opt) => opt.value === item.genre.id)) {
+        genre.push({ value: item.genre.id, name: item.genre.name });
+      }
+      if (item.category && !category.some((opt) => opt.value === item.category.id)) {
+        category.push({ value: item.category.id, name: item.category.name });
+      }
+      if (item.brand && !brand.some((opt) => opt.value === item.brand.id)) {
+        brand.push({ value: item.brand.id, name: item.brand.name });
+      }
     }
-    maxPage.value = Math.ceil(filteredItems.length / itemPerPage);
-    slicedItems.value = filteredItems.slice((currentPage.value - 1) * itemPerPage, currentPage.value * itemPerPage);
+    return {
+      genre: genre.sort((a, b) => a.name.localeCompare(b.name)),
+      category: category.sort((a, b) => a.name.localeCompare(b.name)),
+      brand: brand.sort((a, b) => a.name.localeCompare(b.name)),
+    };
   });
 
   return (
@@ -77,57 +87,9 @@ export default component$(() => {
           </div>
           <div class="mb-4 flex flex-row gap-2 lg:w-4xl items-end">
             <Search bind={search.bind} debouncedValue={search.debounced} placeholder="Search items..." class="flex-1" />
-            <Select
-              label="Genre"
-              bind:value={filterGenre}
-              options={[{ value: "", name: "-" }].concat(
-                items.value
-                  .reduce(
-                    (acc, item) => {
-                      if (item.genre && !acc.some((opt) => opt.value === item.genre.id)) {
-                        acc.push({ value: item.genre.id, name: item.genre.name });
-                      }
-                      return acc;
-                    },
-                    [] as Array<{ value: string; name: string }>,
-                  )
-                  .sort((a, b) => a.name.localeCompare(b.name)),
-              )}
-            />
-            <Select
-              label="Category"
-              bind:value={filterCategory}
-              options={[{ value: "", name: "-" }].concat(
-                items.value
-                  .reduce(
-                    (acc, item) => {
-                      if (item.category && !acc.some((opt) => opt.value === item.category.id)) {
-                        acc.push({ value: item.category.id, name: item.category.name });
-                      }
-                      return acc;
-                    },
-                    [] as Array<{ value: string; name: string }>,
-                  )
-                  .sort((a, b) => a.name.localeCompare(b.name)),
-              )}
-            />
-            <Select
-              label="Brand"
-              bind:value={filterBrand}
-              options={[{ value: "", name: "-" }].concat(
-                items.value
-                  .reduce(
-                    (acc, item) => {
-                      if (item.brand && !acc.some((opt) => opt.value === item.brand.id)) {
-                        acc.push({ value: item.brand.id, name: item.brand.name });
-                      }
-                      return acc;
-                    },
-                    [] as Array<{ value: string; name: string }>,
-                  )
-                  .sort((a, b) => a.name.localeCompare(b.name)),
-              )}
-            />
+            <Select label="Genre" bind:value={filterGenre} options={options.value.genre} />
+            <Select label="Category" bind:value={filterCategory} options={options.value.category} />
+            <Select label="Brand" bind:value={filterBrand} options={options.value.brand} />
             <Button
               color="red"
               disabled={!search.bind.value && !filterGenre.value && !filterCategory.value && !filterBrand.value}

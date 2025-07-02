@@ -1,10 +1,12 @@
 import {
   component$,
   createContextId,
+  useComputed$,
   useContext,
   useContextProvider,
   useSignal,
   useStore,
+  useTask$,
   useVisibleTask$,
 } from "@builder.io/qwik";
 import { DocumentHead, useDocumentHead, useLocation } from "@builder.io/qwik-city";
@@ -13,11 +15,7 @@ import { Badge, Breadcrumb, Link, Spinner } from "flowbite-qwik";
 import { LangContext } from "~/context/lang";
 import { CharacterData, DataTableSignal, characterManager } from "~/core/character_manager";
 import { getDataTable } from "~/core/data_table";
-import { DA_CommunicationNpc, getCharacterCommunication } from "~/core/data_table/character_communication";
-import { DT_CommunicationCommand } from "~/core/data_table/communication/communication_command";
-import { DT_NpcPickyItem } from "~/core/data_table/communication/picky_item";
-import { IDataTable } from "~/core/data_table/interface";
-import { DT_Item } from "~/core/data_table/item/item";
+import { getCharacterCommunication } from "~/core/data_table/character_communication";
 import { Residence } from "~/core/residence_manager";
 import { CharacterTabKeys, CharacterTabs } from "./tabs";
 
@@ -38,38 +36,33 @@ export default component$(() => {
   const head = useDocumentHead();
   const characterId = loc.params.id;
   const lang = useContext(LangContext);
-  const isError = useSignal<boolean>(false);
   const visibleTab = useSignal<CharacterTabKeys>("profile");
-  const tabTexts = useStore({
-    profile: "Profile",
-    preferences: "Preferences",
-    communication: "Communication",
-    gifts: "Gifts",
-    quests: "Quests",
-  });
-  const dataTable = useSignal<DataTableSignal>({
-    loaded: false,
-    DT_Character: undefined,
-    DT_Profile: undefined,
-    DT_NpcPickyItem: useSignal<IDataTable<DT_NpcPickyItem> | undefined>(),
-    DT_Item: useSignal<IDataTable<DT_Item> | undefined>(),
-    DT_CommunicationCommand: useSignal<IDataTable<DT_CommunicationCommand> | undefined>(),
-    DA_CommunicationNpc: useSignal<DA_CommunicationNpc | undefined>(),
-  });
-  useContextProvider(DataTableContext, dataTable.value);
-  const characterData = useSignal<CharacterProps | null>(null);
+  const dataTable = useStore<DataTableSignal>(
+    {
+      loaded: false,
+      DT_Character: undefined,
+      DT_Profile: undefined,
+      DT_NpcPickyItem: undefined,
+      DT_Item: undefined,
+      DT_CommunicationCommand: undefined,
+      DA_CommunicationNpc: undefined,
+    },
+    { deep: false },
+  );
+  useContextProvider(DataTableContext, dataTable);
   useVisibleTask$(async ({ track }) => {
-    track(() => dataTable.value.loaded);
-    if (dataTable.value.loaded) {
+    track(() => dataTable.loaded);
+    if (dataTable.loaded) {
       return;
     }
-    if (!dataTable.value.DT_Character) {
-      dataTable.value.DT_Character = await getDataTable("character");
+    if (!dataTable.DT_Character) {
+      dataTable.DT_Character = await getDataTable("character");
     }
-    if (!dataTable.value.DT_Profile) {
-      dataTable.value.DT_Profile = await getDataTable("characterProfile");
+    if (!dataTable.DT_Profile) {
+      dataTable.DT_Profile = await getDataTable("characterProfile");
     }
-    dataTable.value.loaded = true;
+    dataTable.loaded = true;
+    console.log("DataTable loaded");
   });
   // Separate NpcPickyItem loading, load once the preferences tab is visible
   useVisibleTask$(async ({ track }) => {
@@ -77,11 +70,11 @@ export default component$(() => {
     if (visibleTab.value !== "preferences") {
       return;
     }
-    if (!dataTable.value.DT_NpcPickyItem.value) {
-      dataTable.value.DT_NpcPickyItem.value = await getDataTable("npcPickyItem");
+    if (!dataTable.DT_NpcPickyItem) {
+      dataTable.DT_NpcPickyItem = await getDataTable("npcPickyItem");
     }
-    if (!dataTable.value.DT_Item.value) {
-      dataTable.value.DT_Item.value = await getDataTable("item");
+    if (!dataTable.DT_Item) {
+      dataTable.DT_Item = await getDataTable("item");
     }
   });
   // Separate CommunicationNpc loading, load once the communication tab is visible
@@ -90,26 +83,22 @@ export default component$(() => {
     if (visibleTab.value !== "communication") {
       return;
     }
-    if (!dataTable.value.DT_CommunicationCommand.value) {
-      dataTable.value.DT_CommunicationCommand.value = await getDataTable("communicationCommand");
+    if (!dataTable.DT_CommunicationCommand) {
+      dataTable.DT_CommunicationCommand = await getDataTable("communicationCommand");
     }
-    if (!dataTable.value.DA_CommunicationNpc.value) {
+    if (!dataTable.DA_CommunicationNpc) {
       const data = await getCharacterCommunication(characterId.slice(3));
       if (data) {
-        dataTable.value.DA_CommunicationNpc.value = data;
+        dataTable.DA_CommunicationNpc = data;
       }
     }
   });
-  useVisibleTask$(async ({ track }) => {
-    track(() => [dataTable.value.loaded, lang.currentLang, lang.value]);
-    if (!dataTable.value.loaded || !lang.value) {
-      return;
+  const characterData = useComputed$(() => {
+    if (!dataTable.loaded || !lang.value) {
+      return -1;
     }
     try {
-      const data = characterManager.getData(characterId, dataTable.value, lang);
-      // @ts-expect-error: read-only property. Hack way to dynamically set the title
-      head.title = `${data.name} - Mihoshi Habaki`;
-      // Badges
+      const data = characterManager.getData(characterId, dataTable, lang);
       const badges: CharacterProps["badges"] = [];
       const residenceBadge = {
         bordered: true,
@@ -124,26 +113,50 @@ export default component$(() => {
           content: "Marriage Candidate",
         });
       }
-      characterData.value = data;
-      characterData.value.badges = badges;
+      return {
+        ...data,
+        badges,
+      } satisfies CharacterProps;
     } catch {
-      isError.value = true;
+      return 0;
     }
   });
-  useVisibleTask$(({ track }) => {
-    track(() => [lang.currentLang, lang.value]);
-    if (!lang.value) {
-      return;
+  useTask$(({ track }) => {
+    track(() => characterData.value);
+    if (typeof characterData.value === "object") {
+      // @ts-expect-error: read-only property. Hack way to dynamically set the title
+      head.title = `${characterData.value.name} - Mihoshi Habaki`;
     }
-    tabTexts.profile = lang.value["ST_Menu"]["TXT_CMP_CHR001"];
-    tabTexts.preferences = lang.value["ST_Menu"]["TXT_CMP_CHR002"];
-    tabTexts.communication = lang.value["ST_Menu"]["TXT_CMP_SKL018"];
-    // TODO: Translate gifts tab text
-    // tabTexts.gifts = lang.value["ST_Menu"]["TXT_CMP_CHR003"];
-    tabTexts.quests = lang.value["ST_Quest"]["TXT_QST_MIT004"];
   });
 
-  if (isError.value) {
+  const tabTexts = useComputed$(() => {
+    if (!lang.value) {
+      return {
+        profile: "Profile",
+        preferences: "Preferences",
+        communication: "Communication",
+        gifts: "Gifts",
+        quests: "Quests",
+      };
+    }
+    return {
+      profile: lang.value["ST_Menu"]["TXT_CMP_CHR001"] || "Profile",
+      preferences: lang.value["ST_Menu"]["TXT_CMP_CHR002"] || "Preferences",
+      communication: lang.value["ST_Menu"]["TXT_CMP_SKL018"] || "Communication",
+      gifts: lang.value["ST_Menu"]["TXT_CMP_CHR003"] || "Gifts",
+      quests: lang.value["ST_Quest"]["TXT_QST_MIT004"] || "Quests",
+    };
+  });
+
+  if (characterData.value === -1) {
+    return (
+      <div class="flex items-center">
+        <Spinner color="purple" />
+        <span class="ml-2">Loading character data...</span>
+      </div>
+    );
+  }
+  if (characterData.value === 0) {
     return (
       <>
         <div class="flex items-center">
@@ -155,14 +168,7 @@ export default component$(() => {
       </>
     );
   }
-  if (!characterData.value) {
-    return (
-      <div class="flex items-center">
-        <Spinner color="purple" />
-        <span class="ml-2">Loading character data...</span>
-      </div>
-    );
-  }
+
   return (
     <>
       <div class="mb-4">
@@ -188,7 +194,7 @@ export default component$(() => {
           )}
         </div>
       </div>
-      <CharacterTabs bind={visibleTab} texts={tabTexts} data={characterData.value} dataTable={dataTable.value} />
+      <CharacterTabs bind={visibleTab} texts={tabTexts} data={characterData.value} dataTable={dataTable} />
     </>
   );
 });

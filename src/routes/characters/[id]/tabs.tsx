@@ -13,7 +13,7 @@ import { CharacterProfile } from "./profile";
 
 type CharacterTabProps = {
   bind: Signal<string>;
-  texts: Record<CharacterTabKeys, string>;
+  texts: Signal<Record<CharacterTabKeys, string>>;
   data: CharacterData;
   dataTable: DataTableSignal;
 };
@@ -50,23 +50,23 @@ export const CharacterTabs = component$<CharacterTabProps>(({ bind, data, texts 
   });
 
   return (
-    <Tabs variant="underline" key={texts.profile}>
-      <Tabs.Tab title={texts.profile}>
+    <Tabs variant="underline" key={texts.value.profile}>
+      <Tabs.Tab title={texts.value.profile}>
         <Observer bind={store.profile} />
         <CharacterProfile profile={data.profile} desc={data.desc} />
       </Tabs.Tab>
-      <Tabs.Tab title={texts.preferences}>
+      <Tabs.Tab title={texts.value.preferences}>
         <Observer bind={store.preferences} />
         <CharacterTabPreferences data={data} />
       </Tabs.Tab>
-      <Tabs.Tab title={texts.communication}>
+      <Tabs.Tab title={texts.value.communication}>
         <Observer bind={store.communication} />
         <CharacterTabCommunication />
       </Tabs.Tab>
-      <Tabs.Tab title={texts.gifts} disabled>
+      <Tabs.Tab title={texts.value.gifts} disabled>
         <Observer bind={store.gifts} />
       </Tabs.Tab>
-      <Tabs.Tab title={texts.quests} disabled>
+      <Tabs.Tab title={texts.value.quests} disabled>
         <Observer bind={store.quests} />
       </Tabs.Tab>
     </Tabs>
@@ -87,9 +87,9 @@ const CharacterTabPreferences = component$<CharacterTabPreferencesProps>(({ data
     HATE: [],
   });
   useVisibleTask$(({ track }) => {
-    track(() => [dataTable.DT_Item.value, dataTable.DT_NpcPickyItem.value, lang.currentLang, lang.value]);
-    const DT_Item = dataTable.DT_Item.value;
-    const DT_NpcPickyItem = dataTable.DT_NpcPickyItem.value;
+    track(() => [dataTable.DT_Item, dataTable.DT_NpcPickyItem, lang.currentLang, lang.value]);
+    const DT_Item = dataTable.DT_Item;
+    const DT_NpcPickyItem = dataTable.DT_NpcPickyItem;
     if (!DT_Item || !DT_NpcPickyItem || !lang.value) {
       return;
     }
@@ -152,14 +152,9 @@ const CharacterTabCommunication = component$(() => {
     NEUTRAL: [],
   });
   useVisibleTask$(({ track }) => {
-    track(() => [
-      dataTable.DA_CommunicationNpc.value,
-      dataTable.DA_CommunicationNpc.value,
-      lang.currentLang,
-      lang.value,
-    ]);
-    const table = dataTable.DA_CommunicationNpc.value;
-    const communicationCommand = dataTable.DT_CommunicationCommand.value;
+    track(() => [dataTable.DA_CommunicationNpc, lang.currentLang, lang.value]);
+    const table = dataTable.DA_CommunicationNpc;
+    const communicationCommand = dataTable.DT_CommunicationCommand;
     if (!lang.value || !table || !communicationCommand) {
       return;
     }
